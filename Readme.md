@@ -5,10 +5,10 @@ O projeto consiste em um sistema de tarefas, onde o usuário consegue criar, con
 ## Layout da Aplicação
 
 <p align="left">
-  <img alt="Interface da aplicação" src="./github/gif01.gif" width=200 height="auto">
+  <img alt="Interface da aplicação" src="./github/gif01.gif" width="100%" height="auto">
   </p>
   <p align="left">
-  <img alt="Interface da aplicação" src="./github/img01.png" width=200 height="auto">
+  <img alt="Interface da aplicação" src="./github/img01.png" width="100%" height="auto">
   
 </p>
 
