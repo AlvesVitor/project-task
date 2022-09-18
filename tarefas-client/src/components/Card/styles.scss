@@ -1,0 +1,51 @@
+.card-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  background: var(--white);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  box-shadow: 0 1px 4px 0 rgba(192, 208, 230, 0.8);
+  p {
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  div {
+    margin-left: 10px;
+    display: flex;
+    svg {
+      margin-left: 5px;
+    }
+  }
+  .card-options {
+    display: none;
+  }
+}
+.icon-check {
+  position: absolute;
+  right: 0;
+}
+
+.card-container:hover {
+  .card-options {
+    display: flex;
+  }
+}
+
+.pedding {
+  color: #f6bd60;
+}
+.completed {
+  background-color: var(--green-400);
+  color: var(--white);
+}
+
+.deleted {
+  background-color: var(--red-400);
+  text-decoration: line-through;
+  color: var(--white);
+}
